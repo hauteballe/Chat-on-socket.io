@@ -22,6 +22,4 @@ io.on("connection", (socket) => {
   });
 });
 
-http.listen(port, () => {
-  console.log(`server running at http://0.0.0.0:${port}/`);
-});
+http.listen(port);
